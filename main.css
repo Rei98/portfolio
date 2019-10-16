@@ -1,3 +1,41 @@
-body {
-    background-image: url('Halloween.jpg');
+ html { 
+    background: url('CDC.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+  }
+h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0;
+  font-weight: normal;
 }
+
+h2 {
+  font-size: 18px;
+  color: white;
+  margin-top: 0;
+}
+
+p {
+  color: white;
+}
+
+.me {
+  height: 150px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: white;
+}
+
+#wrapper {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
