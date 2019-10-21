@@ -1,33 +1,33 @@
  html { 
-    background: url('CDC.jpg') no-repeat center center fixed; 
+    background: url('htmlBackground.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Bree Serif', serif;
   }
 h1 {
   font-size: 50px;
-  color: white;
+  color:#BB8FCE;
   margin-bottom: 0;
   font-weight: normal;
 }
 
 h2 {
   font-size: 18px;
-  color: white;
+  color:#BB8FCE;
   margin-top: 0;
 }
 
 p {
-  color: white;
+  color:#BB8FCE;
 }
 
 .me {
   height: 150px;
   border-radius: 100%;
   border-style: solid;
-  border-color: white;
+  border-color:#BB8FCE;
 }
 
 #wrapper {
@@ -37,5 +37,14 @@ p {
   border: 40px;
   text-align: center;
   font-size: 14px;
+  margin-top: 50px;
+  
+}
+
+.grey {
+  height: 3px;
+  background-color:#BB8FCE;
+  border: none;
+  width: 70px;
 }
 
