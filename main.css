@@ -43,8 +43,31 @@ p {
 
 .grey {
   height: 3px;
-  background-color:#BB8FCE;
+  background-color:rgb(240, 240, 240);
   border: none;
   width: 70px;
 }
 
+a:link {
+  color: rgb(219, 235, 227);
+  text-decoration: none;
+  background-color:rgb(168, 180, 0);
+  padding: 10px;
+  border-radius: 100px;
+}
+
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* selected link */
+a:active {
+  color: rgb(250, 250, 250);
+}
